@@ -1,0 +1,39 @@
+# Dependencies
+node_modules/
+.pnpm-store/
+
+# Build & Production outputs
+build/
+dist/
+coverage/
+*.cjs.map
+
+# SQLite & Local Databases
+db.sqlite
+db.sqlite-shm
+db.sqlite-wal
+*.db
+*.sqlite
+*.sqlite3
+*.bak
+
+# Temporary files & AI Studio Artifacts
+.tempmediaStorage/
+temp/
+backups/
+.DS_Store
+*.log
+
+# Binary & Large Media Assets
+*.apk
+server/templates/webview-template.apk
+public/templates/webview-template.apk
+server/templates/*.crt
+server/templates/*.key
+
+# Environment & Secrets
+.env
+.env.local
+.env.development.local
+.env.production.local
+!.env.example
